@@ -15,8 +15,6 @@
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="https://i.pinimg.com/originals/a6/0d/36/a60d366814bf6e8e5e24cef9d032c157.png" />
 <itunes:category text="Category Name"/></itunes:category>
-
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
     <title>World War Z</title>
     <itunes:summary>Description of podcast episode content</itunes:summary>
@@ -29,7 +27,7 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://example.com/podcast-1</guid>
 </item> 
-<!--END REPEAT--> 
+
 <item>
     <title>Metro 2033 Part 1</title>
     <itunes:summary>Description of podcast episode content</itunes:summary>
@@ -42,6 +40,7 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://example.com/podcast-1</guid>
 </item> 
+    
 <item>
     <title>Metro 2033 Part 2</title>
     <itunes:summary>Description of podcast episode content</itunes:summary>
