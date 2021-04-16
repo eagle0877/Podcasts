@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Audiobooks</title>
-    <link>https://www.google.com/</link>
-    <language>en-us</language>
-    <copyright>NA</copyright>
-    <itunes:author>None</itunes:author>
-    <description>
-      
-    </description>
-    <item>
-      <itunes:episodeType>trailer</itunes:episodeType>
-      <itunes:title>World War Z</itunes:title>
-      <description>
-          
-      </description>
-      <enclosure 
-        length="43200" 
-        type="audio/mpeg" 
-        url="https://s3.castbox.fm/f1/02/1d/aa5148432bb5e955e3f4992080.mp3"
-      />
-      <guid>aae20190418</guid>
-      <pubDate>Tue, 8 Jan 2019 01:15:00 GMT</pubDate>
-      <itunes:duration>43200</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-  </channel>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Audiobooks</title>
+<link>http://www.example.com/<link>
+<language>en-us</language>
+<itunes:subtitle>Subtitle of podcast</itunes:subtitle>
+<itunes:author>Author Name</itunes:author>
+<itunes:summary>Description of podcast.</itunes:summary>
+<description>Description of podcast.</description>
+<itunes:owner>
+    <itunes:name>Owner Name</itunes:name>
+    <itunes:email>me@example.com</itunes:email>
+</itunes:owner>
+<itunes:explicit>no</itunes:explicit>
+<itunes:image href="http://www.example.com/podcast-icon.jpg" />
+<itunes:category text="Category Name"/></itunes:category>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<item>
+    <title>World War Z</title>
+    <itunes:summary>Description of podcast episode content</itunes:summary>
+    <description>Description of podcast episode content</description>
+    <link>http://example.com/podcast-1</link>
+    <enclosure url="https://s3.castbox.fm/f1/02/1d/aa5148432bb5e955e3f4992080.mp3" type="audio/mpeg" length="1024"></enclosure>
+    <pubDate>Thu, 21 Dec 2016 16:01:07 +0000</pubDate>
+    <itunes:author>Author Name</itunes:author>
+    <itunes:duration>00:32:16</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://example.com/podcast-1</guid>
+</item> 
+<!--END REPEAT--> 
+   
+</channel>
 </rss>
