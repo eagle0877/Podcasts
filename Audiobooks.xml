@@ -13,7 +13,6 @@
     <itunes:email>me@example.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="https://i.pinimg.com/originals/a6/0d/36/a60d366814bf6e8e5e24cef9d032c157.png" />
 <item>
     <title>World War Z</title>
     <itunes:summary>Description of podcast episode content</itunes:summary>
