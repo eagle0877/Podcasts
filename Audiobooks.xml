@@ -14,9 +14,8 @@
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="http://www.example.com/podcast-icon.jpg" />
-<itunes:category text="Category Name"/></itunes:category>
-
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+<itunes:category text="Category Name"/>
+    <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
     <title>World War Z</title>
     <itunes:summary>Description of podcast episode content</itunes:summary>
