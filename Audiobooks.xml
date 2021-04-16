@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bryans Audiobooks</title>
+    <link>https://www.google.com/</link>
+    <language>en-us</language>
+    <copyright>NA</copyright>
+    <itunes:author>None</itunes:author>
+    <description>
+      
+    </description>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+      <itunes:name>NA</itunes:name>
+      <itunes:email>na@icloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:image
+      href="https://applehosted.podcasts.apple.com/hiking_treks/artwork.png"
+    />
+    <itunes:category text="Books">
+      <itunes:category text="Audio"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:title>World War Z</itunes:title>
+      <description>
+          
+      </description>
+      <enclosure 
+        length="43200" 
+        type="audio/mpeg" 
+        url="https://s3.castbox.fm/f1/02/1d/aa5148432bb5e955e3f4992080.mp3"
+      />
+      <guid>aae20190418</guid>
+      <pubDate>Tue, 8 Jan 2019 01:15:00 GMT</pubDate>
+      <itunes:duration>43200</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
